@@ -2,6 +2,7 @@
 NIR-VIS face recognition for CASIA NIR-VIS2.0 dataset, implemented by Pytorch.      
 Scripts only for testing and reporting performance.    
 With pretrained LightCNN29V2 and proper preprocessing, Rank1 accuracy can achieve 96.7%     
+With ArcFace, the Rank1 accuracy can achieve 99.7%     
 
 ## Description
 1) extract_features.py      
