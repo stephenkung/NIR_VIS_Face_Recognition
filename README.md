@@ -4,9 +4,12 @@ Scripts only for testing and reporting performance.
 With pretrained LightCNN29V2 and proper preprocessing, Rank1 accuracy can achieve 96.7%     
 
 ## description
-1) extract_features.py: apply pretrained deep learning model(LightCNN 9/29) to extract face embedding(128D).            
-Compute Rank1 accuracy and AR@FAR=0.01.  It implements the view2 protocal defined by CASIA2.0 dataset.       
-2) light_cnn.py: the standard LightCNN model.     
+1) extract_features.py      
+Apply pretrained deep learning model(LightCNN 9/29) to extract face embedding(128D).            
+Compute Rank1 accuracy and accuracy of AR@FAR=0.01.     
+It implements the view2 protocal defined by CASIA2.0 dataset.       
+2) light_cnn.py
+The standard LightCNN model.     
 Acess here for more about LightCNN: https://github.com/AlfredXiangWu/LightCNN    
 
 ## prerequisite
