@@ -1,5 +1,6 @@
 # NIR_VIS_Face_Recognition
-NIR-VIS face recognition for CASIA NIR-VIS2.0 dataset, implemented by Pytorch. Scripts only for testing and reporting performance.   
+NIR-VIS face recognition for CASIA NIR-VIS2.0 dataset, implemented by Pytorch.      
+Scripts only for testing and reporting performance.     
 
 ## description
 1) extract_features.py: apply pretrained deep learning model(LightCNN 9/29) to extract face embedding(128D).            
