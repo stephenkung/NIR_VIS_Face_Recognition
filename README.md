@@ -1,6 +1,7 @@
 # NIR_VIS_Face_Recognition
 NIR-VIS face recognition for CASIA NIR-VIS2.0 dataset, implemented by Pytorch.      
-Scripts only for testing and reporting performance.     
+Scripts only for testing and reporting performance.    
+With pretrained LightCNN29V2 and proper preprocessing, Rank1 accuracy can achieve 96.7%     
 
 ## description
 1) extract_features.py: apply pretrained deep learning model(LightCNN 9/29) to extract face embedding(128D).            
